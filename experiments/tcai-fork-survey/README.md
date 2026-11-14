@@ -4,7 +4,7 @@
 
 **Method:** API survey of the fork on 2026-11-13 (recursive git tree, directory reads, README). Code reading to follow.
 
-**Status:** running — first pass done 2026-11-13.
+**Status:** running — structure surveyed; `models/emotion` read in depth (see `reading-emotion.md`); test-running understood. Proposed first experiment logged in the reading notes.
 
 ## First findings
 
@@ -16,6 +16,6 @@
 
 ## Next steps
 
-1. Read `models/emotion` — the homeostasis machinery behind the Kairos precedent (Issue #4).
-2. Learn the test entry points; try running a small slice locally.
-3. Decide the first real experiment and log it as its own folder.
+1. ~~Read `models/emotion`~~ — done 2026-11-13; findings in `reading-emotion.md`. Headlines: the homeostasis model is a stated formula with an arousal setpoint of 0.3; the learned-valence critic is firewalled from homeostatic reward (ethics rule E2); an existence-bias ablation switch runs through the newer code.
+2. ~~Learn the test entry points~~ — done from CI: Python 3.12, `pytest tests/ -q --ignore=tests/envs/ -k "not test_load_model"`; the pure-Python emotion layer needs no GPU and no torch.
+3. Run the proposed first experiment (in the reading notes): a Kairos-protocol VAD diagnostic against the Tier-2 stack, checking whether homeostatic regulation visibly works in the code as shipped.
