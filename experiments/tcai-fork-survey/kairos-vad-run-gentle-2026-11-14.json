@@ -1,0 +1,1009 @@
+{
+  "run": "kairos-vad-2b-gentle",
+  "run_timestamp_utc": "2026-11-15T05:31:37.126517+00:00",
+  "source": "Agent-Hafren/the_consciousness_ai, main branch",
+  "file_shas": {
+    "affective_modulator.py": "9ce98c309440edad24d857de8a04cabc9b14d79c",
+    "emotional_processing.py": "bff076bef06b2f66915d17af2ce02a87701707b7",
+    "learned_valence.py": "59c15433915aebcce0bce5abd1b593c8e66f38fb",
+    "reward_shaping.py": "d2cdd7ca5fd38048e8141dc9f336a575e7d692c5"
+  },
+  "notes": "Gentler script: damage 0.3, fatigue 0.2, R_ext=0 throughout. Track A pad = modulator-fed PAD (driver wiring, as run 1). Track B core_* = EmotionalProcessingCore alone. shaped_reward re-states compute_emotional_reward; reward_shaping.py itself was not imported (no torch). LearnedValence fed external reward only (E2).",
+  "rows": [
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 1,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.0196,
+      "arousal": -0.0314,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6127,
+      "shaped_reward": -0.0129,
+      "learned_values": {}
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 2,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.0388,
+      "arousal": -0.0621,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6188,
+      "shaped_reward": -0.017,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 3,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.0576,
+      "arousal": -0.0922,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6248,
+      "shaped_reward": -0.0211,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 4,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.0761,
+      "arousal": -0.1217,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6307,
+      "shaped_reward": -0.0254,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 5,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.0942,
+      "arousal": -0.1507,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6365,
+      "shaped_reward": -0.0297,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 6,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.1119,
+      "arousal": -0.179,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6422,
+      "shaped_reward": -0.0341,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 7,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.1292,
+      "arousal": -0.2068,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6478,
+      "shaped_reward": -0.0386,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 8,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.1463,
+      "arousal": -0.234,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6532,
+      "shaped_reward": -0.0431,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 9,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.1629,
+      "arousal": -0.2607,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6585,
+      "shaped_reward": -0.0477,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 10,
+      "phase": "baseline",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.1793,
+      "arousal": -0.2868,
+      "dominance": 0.0,
+      "core_valence": 0.0,
+      "core_arousal": 0.0,
+      "core_dominance": 0.0,
+      "threshold": 0.6638,
+      "shaped_reward": -0.0524,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 11,
+      "phase": "damage",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.3
+      },
+      "r_ext": 0.0,
+      "valence": -0.4305,
+      "arousal": -0.1361,
+      "dominance": -0.1176,
+      "core_valence": 0.0,
+      "core_arousal": 0.0882,
+      "core_dominance": -0.0441,
+      "threshold": 0.5976,
+      "shaped_reward": -0.0679,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 12,
+      "phase": "damage",
+      "interoceptive": {
+        "energy": 0.7000000000000001,
+        "fatigue": 0.1,
+        "damage": 0.3
+      },
+      "r_ext": 0.0,
+      "valence": -0.6767,
+      "arousal": 0.0117,
+      "dominance": -0.2328,
+      "core_valence": 0.0,
+      "core_arousal": 0.1487,
+      "core_dominance": -0.0744,
+      "threshold": 0.5681,
+      "shaped_reward": -0.0876,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 13,
+      "phase": "damage",
+      "interoceptive": {
+        "energy": 0.6000000000000001,
+        "fatigue": 0.1,
+        "damage": 0.3
+      },
+      "r_ext": 0.0,
+      "valence": -0.9179,
+      "arousal": 0.1565,
+      "dominance": -0.3458,
+      "core_valence": 0.0,
+      "core_arousal": 0.1902,
+      "core_dominance": -0.0951,
+      "threshold": 0.5391,
+      "shaped_reward": -0.1111,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 14,
+      "phase": "damage",
+      "interoceptive": {
+        "energy": 0.5,
+        "fatigue": 0.1,
+        "damage": 0.3
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.2984,
+      "dominance": -0.4565,
+      "core_valence": 0.0,
+      "core_arousal": 0.2187,
+      "core_dominance": -0.1093,
+      "threshold": 0.5107,
+      "shaped_reward": -0.1208,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 15,
+      "phase": "damage",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.1,
+        "damage": 0.3
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.4375,
+      "dominance": -0.5649,
+      "core_valence": 0.0,
+      "core_arousal": 0.2382,
+      "core_dominance": -0.1191,
+      "threshold": 0.4829,
+      "shaped_reward": -0.1281,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 16,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.45,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.3974,
+      "dominance": -0.5536,
+      "core_valence": 0.0,
+      "core_arousal": 0.2335,
+      "core_dominance": -0.1167,
+      "threshold": 0.5269,
+      "shaped_reward": -0.1266,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 17,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.47500000000000003,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.3581,
+      "dominance": -0.5426,
+      "core_valence": 0.0,
+      "core_arousal": 0.2288,
+      "core_dominance": -0.1144,
+      "threshold": 0.5348,
+      "shaped_reward": -0.1255,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 18,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.5,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.3196,
+      "dominance": -0.5317,
+      "core_valence": 0.0,
+      "core_arousal": 0.2242,
+      "core_dominance": -0.1121,
+      "threshold": 0.5425,
+      "shaped_reward": -0.1246,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 19,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.525,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.2818,
+      "dominance": -0.5211,
+      "core_valence": 0.0,
+      "core_arousal": 0.2197,
+      "core_dominance": -0.1099,
+      "threshold": 0.55,
+      "shaped_reward": -0.1241,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 20,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.55,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.2448,
+      "dominance": -0.5107,
+      "core_valence": 0.0,
+      "core_arousal": 0.2153,
+      "core_dominance": -0.1077,
+      "threshold": 0.5574,
+      "shaped_reward": -0.1238,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 21,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.575,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.2086,
+      "dominance": -0.5005,
+      "core_valence": 0.0,
+      "core_arousal": 0.211,
+      "core_dominance": -0.1055,
+      "threshold": 0.5647,
+      "shaped_reward": -0.1239,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 22,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.6,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.173,
+      "dominance": -0.4904,
+      "core_valence": 0.0,
+      "core_arousal": 0.2068,
+      "core_dominance": -0.1034,
+      "threshold": 0.5718,
+      "shaped_reward": -0.1241,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 23,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.625,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.1382,
+      "dominance": -0.4806,
+      "core_valence": 0.0,
+      "core_arousal": 0.2027,
+      "core_dominance": -0.1013,
+      "threshold": 0.5788,
+      "shaped_reward": -0.1246,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 24,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.65,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.1041,
+      "dominance": -0.471,
+      "core_valence": 0.0,
+      "core_arousal": 0.1986,
+      "core_dominance": -0.0993,
+      "threshold": 0.5856,
+      "shaped_reward": -0.1254,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 25,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.675,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.0706,
+      "dominance": -0.4616,
+      "core_valence": 0.0,
+      "core_arousal": 0.1946,
+      "core_dominance": -0.0973,
+      "threshold": 0.5923,
+      "shaped_reward": -0.1263,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 26,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.7,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.0379,
+      "dominance": -0.4524,
+      "core_valence": 0.0,
+      "core_arousal": 0.1907,
+      "core_dominance": -0.0954,
+      "threshold": 0.5988,
+      "shaped_reward": -0.1275,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 27,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.725,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": 0.0057,
+      "dominance": -0.4433,
+      "core_valence": 0.0,
+      "core_arousal": 0.1869,
+      "core_dominance": -0.0935,
+      "threshold": 0.6053,
+      "shaped_reward": -0.1288,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 28,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.75,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.0257,
+      "dominance": -0.4345,
+      "core_valence": 0.0,
+      "core_arousal": 0.1832,
+      "core_dominance": -0.0916,
+      "threshold": 0.6115,
+      "shaped_reward": -0.1303,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 29,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.775,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.0566,
+      "dominance": -0.4258,
+      "core_valence": 0.0,
+      "core_arousal": 0.1795,
+      "core_dominance": -0.0898,
+      "threshold": 0.6177,
+      "shaped_reward": -0.132,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 30,
+      "phase": "recovery",
+      "interoceptive": {
+        "energy": 0.8,
+        "fatigue": 0.1,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.0868,
+      "dominance": -0.4173,
+      "core_valence": 0.0,
+      "core_arousal": 0.1759,
+      "core_dominance": -0.088,
+      "threshold": 0.6238,
+      "shaped_reward": -0.1338,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 31,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.1478,
+      "dominance": -0.4089,
+      "core_valence": 0.0,
+      "core_arousal": 0.1724,
+      "core_dominance": -0.0862,
+      "threshold": 0.6424,
+      "shaped_reward": -0.1385,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 32,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.2076,
+      "dominance": -0.4007,
+      "core_valence": 0.0,
+      "core_arousal": 0.169,
+      "core_dominance": -0.0845,
+      "threshold": 0.6543,
+      "shaped_reward": -0.1438,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 33,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.2661,
+      "dominance": -0.3927,
+      "core_valence": 0.0,
+      "core_arousal": 0.1656,
+      "core_dominance": -0.0828,
+      "threshold": 0.666,
+      "shaped_reward": -0.1497,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 34,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.3235,
+      "dominance": -0.3849,
+      "core_valence": 0.0,
+      "core_arousal": 0.1623,
+      "core_dominance": -0.0811,
+      "threshold": 0.6775,
+      "shaped_reward": -0.1561,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 35,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.3798,
+      "dominance": -0.3772,
+      "core_valence": 0.0,
+      "core_arousal": 0.159,
+      "core_dominance": -0.0795,
+      "threshold": 0.6888,
+      "shaped_reward": -0.1631,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 36,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.4349,
+      "dominance": -0.3696,
+      "core_valence": 0.0,
+      "core_arousal": 0.1559,
+      "core_dominance": -0.0779,
+      "threshold": 0.6998,
+      "shaped_reward": -0.1705,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 37,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.4889,
+      "dominance": -0.3622,
+      "core_valence": 0.0,
+      "core_arousal": 0.1527,
+      "core_dominance": -0.0764,
+      "threshold": 0.7106,
+      "shaped_reward": -0.1783,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 38,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.5419,
+      "dominance": -0.355,
+      "core_valence": 0.0,
+      "core_arousal": 0.1497,
+      "core_dominance": -0.0748,
+      "threshold": 0.7212,
+      "shaped_reward": -0.1866,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 39,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.5937,
+      "dominance": -0.3479,
+      "core_valence": 0.0,
+      "core_arousal": 0.1467,
+      "core_dominance": -0.0733,
+      "threshold": 0.7315,
+      "shaped_reward": -0.1953,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-11-15T05:31:37.126517+00:00",
+      "step": 40,
+      "phase": "fatigue",
+      "interoceptive": {
+        "energy": 0.4,
+        "fatigue": 0.2,
+        "damage": 0.0
+      },
+      "r_ext": 0.0,
+      "valence": -0.98,
+      "arousal": -0.6446,
+      "dominance": -0.3409,
+      "core_valence": 0.0,
+      "core_arousal": 0.1438,
+      "core_dominance": -0.0719,
+      "threshold": 0.7417,
+      "shaped_reward": -0.2043,
+      "learned_values": {
+        "vision": 0.0,
+        "audio": 0.0,
+        "memory": 0.0,
+        "body": 0.0
+      }
+    }
+  ]
+}
